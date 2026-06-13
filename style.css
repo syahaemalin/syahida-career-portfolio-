@@ -346,33 +346,82 @@ footer{
 /* CONTACT */
 
 .contact-intro{
-    margin-bottom:30px;
+margin-bottom:30px;
+text-align:center;
 }
 
 .contact-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
 }
 
 .contact-card{
-    background:white;
-    padding:30px;
-    border-radius:25px;
-    text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
 
-    transition:0.3s;
+padding:30px;
+
+border-radius:25px;
+
+border:3px solid white; 
+
+text-align:center;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+transition:0.3s;
 }
 
 .contact-card:hover{
-    transform:translateY(-8px);
+
+
+transform:translateY(-10px) scale(1.03);
+
+
+}
+
+/* MATCHA STRAWBERRY COLORS */
+
+.contact-card:nth-child(1){
+background:#F8D8E8;
+}
+
+.contact-card:nth-child(2){
+background:#E8F5E1;
+}
+
+.contact-card:nth-child(3){
+background:#DDEBFF;
 }
 
 .contact-card h3{
-    color:#7FA46A;
-    margin-bottom:10px;
+color:#333;
+margin-bottom:15px;
 }
+
+.contact-card a{
+
+
+text-decoration:none;
+
+color:#444;
+
+font-weight:600;
+
+word-break:break-word;
+
+transition:0.3s;
+
+
+}
+
+.contact-card a:hover{
+
+
+color:#7FA46A;
+
+
+}
+
 
 /* FOOTER */
 
@@ -972,19 +1021,49 @@ footer{
 }
 
 .tool-card{
-    background:white;
+
     border-radius:25px;
+
     padding:25px;
+
     text-align:center;
 
     box-shadow:0 5px 15px rgba(0,0,0,0.08);
 
     transition:0.3s;
-}
+} 
 
 .tool-card:hover{
-    transform:translateY(-8px);
+
+    transform:translateY(-10px) scale(1.05);
+
+} 
+
+/* STRAWBERRY MATCHA COLORS */
+
+.tool-card:nth-child(6n+1){
+    background:#E8F5E1;
 }
+
+.tool-card:nth-child(6n+2){
+    background:#F8D8E8;
+}
+
+.tool-card:nth-child(6n+3){
+    background:#DDEBFF;
+}
+
+.tool-card:nth-child(6n+4){
+    background:#FFF0B8;
+}
+
+.tool-card:nth-child(6n+5){
+    background:#E7D8FF;
+}
+
+.tool-card:nth-child(6n+6){
+    background:#FFDCC7;
+} 
 
 .tool-card img{
 

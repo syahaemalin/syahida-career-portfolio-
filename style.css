@@ -1086,3 +1086,22 @@ footer{
     color:#333;
     font-size:1rem;
 } 
+
+.company-logo{
+
+    width:100px;
+
+    height:100px;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:0 auto 15px auto;
+
+    background:white;
+
+    padding:10px;
+
+    border-radius:20px;
+}
